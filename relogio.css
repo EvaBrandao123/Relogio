@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(90deg, #800080, #19a9da);
+    
+}
+
+#relogio {
+      position: relative;
+      display: flex;
+      color: #fff;
+      background-color: #2d2f41;
+      width: 425px;
+      padding: 20px 45px;
+      box-shadow: 0px 5px 25px rgb(14, 21, 37, 0.8);
+      border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+#time{
+    border-radius: 15px; 
+    background-color: #2d2f41;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hora, #minutos, #segundos, #dois{
+    display: flex;
+    justify-content: center;
+    padding: 0px 12px;
+    font-weight: 600;
+    line-height: 125px;
+    align-items: center;
+
+
+}
+
+#hora, #minutos, #segundos{
+
+    font-size: 50px;
+    width: 85px;
+
+}
+
+#dois{
+
+    font-size: 30px;
+    color: grey;
+}
+
+#hora{
+    background: -webkit-linear-gradient(90deg, #800080, #19a9da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+}
+
+
+#minutos{
+     background: -webkit-linear-gradient(90deg, #800080, #19a9da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+}
+
+#segundos{
+    background: -webkit-linear-gradient(90deg, #800080, #19a9da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+}
+
+
